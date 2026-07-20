@@ -48,7 +48,6 @@ env:
   NDK_VERSION: "r28c"
   RS_PUB_KEY: "${{secrets.RS_PUB_KEY}}"
   RENDEZVOUS_SERVER: "${{secrets.RENDEZVOUS_SERVER}}"
-  API_SERVER: "${{secrets.API_SERVER}}"
   #signing keys env variable checks
   ANDROID_SIGNING_KEY: "${{ secrets.ANDROID_SIGNING_KEY }}"
   MACOS_P12_BASE64: "${{ secrets.MACOS_P12_BASE64 }}"
